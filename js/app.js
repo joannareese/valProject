@@ -9,11 +9,11 @@ const animImg = document.querySelector(".anim-img");
 const btn0 = document.getElementById("btn-0");
 const btn1 = document.getElementById("btn-1");
 
-const initialMainText = "Lorem Ipsium";
+const initialMainText = "Lauren 'Rennie' Hentz";
 const initialSubText = "Will You Be My Valentine?";
 
 const initialBtn0Text = "YES, I WILL !!!";
-const initialBtn1Text = "Mad O";
+const initialBtn1Text = "NO!";
 
 // ON LOAD ANIMATION
 
@@ -41,10 +41,10 @@ btn0.addEventListener("click", () => {
     mainText.style.marginTop = "50%";
     mainText.style.textAlign = "left";
     mainText.textContent =
-        "My love, My baby, Woman of my dreams. I can't think of a better person to spend my life with, I love you so much.";
+        "I love you very much and hope you have an amazing Valentine's Day. Although an e-card is not chocolate or flowers, I hope you can forgive me. ";
 
     subText.classList.add("yes-page");
-    subText.textContent = "Awwwwwwwwwwwwn I Love You Babe";
+    subText.textContent = "Thank you for saying yes again :) Love u lots";
     subText.style.textAlign = "left";
     btn0.textContent = "Say Yes Again 😍";
     btn1.classList.add("hide");
@@ -71,7 +71,7 @@ btn1.addEventListener("click", () => {
     mainText.classList.add("yes-page");
     mainText.style.fontFamily = "Open Sans";
     mainText.style.textAlign = "left";
-    mainText.textContent = "Nice Try Lorem Ipsium, You're Not Mad";
+    mainText.textContent = "You make me very sad.....";
 
     subText.classList.add("yes-page");
     subText.textContent = "Now Go Back And Hit YES";
